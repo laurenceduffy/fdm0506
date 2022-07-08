@@ -1,0 +1,28 @@
+{
+  "name": "api-gateway",
+  "version": "0.1.0",
+  "description": "API Gateway",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js --exec babel-node -e js"
+  },
+  "author": "laurence-duffy",
+  "license": "N/A",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "microservice-util": "file:../microservice-util"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/runtime": "^7.16.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "nodemon": "^2.0.13"
+  }
+}

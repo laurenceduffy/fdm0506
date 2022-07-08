@@ -1,0 +1,29 @@
+endpoint,method,test,expected,actual,status
+login,post,successful login,200,200,pass
+register,post,successful registration,200,200,pass
+admin,get,validate admin token,200,200,pass
+user,get,get user details,200,200,pass
+user,put,update user details,200,200,pass
+user,post,get user details by query,200,200,pass
+user,delete,delete user details,200,200,pass
+activate,activate user account,200,200,pass
+deactivate,deactivate user account,200,200,pass
+reactivate,reactivate user account,200,200,pass
+reactivate,request user reactivation,200,200,pass
+requests,get user request list,200,200,pass
+account,get,get broker account,200,200,pass
+account/HSBC,get user held shares,200,200,pass
+transactions,get,get user transactions,200,200,pass
+buy,post,buy shares,200,200,pass
+sell,post,sell shares,200,200,pass
+report/stocks,post,stock report xml,200,200,pass
+report/stocks,post,stock report csv,200,200,pass
+report/user,post,user report xml,200,200,pass
+report/user,post,user report csv,200,200,pass
+stock/HSBC,get,get stock details,200,200,pass
+companies,get,get company details,200,200,pass
+companies,post,add company,200,200,pass
+companies,put,edit company details,200,200,pass
+companies,delete,delete company,200,200,pass
+verify,get,verify user verification,200,200,pass
+verify,post,add card details,200,200,pass
